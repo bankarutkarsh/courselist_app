@@ -1,0 +1,129 @@
+{
+  "courses": [
+    {
+      "course_title": "Python Programming",
+      "course_description": "Learn the fundamentals of Python programming language.",
+      "duration": "8 weeks",
+      "schedule": "Tuesdays and Thursdays, 6:00 PM - 8:00 PM",
+      "instructor": "Dr. Jane Smith",
+      "prerequisites": "None",
+      "tuition_fee": "$300",
+      "image_link": "https://www.boardinfinity.com/blog/content/images/2022/12/Top-50-Data-Analyst-Interview-Questions-and-Answers--10-.png"
+    },
+    {
+      "course_title": "Web Development with JavaScript",
+      "course_description": "Master front-end web development using JavaScript, HTML, and CSS.",
+      "duration": "12 weeks",
+      "schedule": "Mondays and Wednesdays, 7:00 PM - 9:00 PM",
+      "instructor": "John Doe",
+      "prerequisites": "Basic knowledge of HTML and CSS",
+      "tuition_fee": "$400",
+      "image_link": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjFICSKJVuKgQQRcnDOJY92OV4-h5h7uZC9A&usqp=CAU"
+    },
+    {
+      "course_title": "Data Science with R",
+      "course_description": "Learn data analysis and visualization using the R programming language.",
+      "duration": "10 weeks",
+      "schedule": "Saturdays, 10:00 AM - 12:00 PM",
+      "instructor": "Dr. Michael Johnson",
+      "prerequisites": "Basic programming knowledge",
+      "tuition_fee": "$350",
+      "image_link": "https://cdn.mindmajix.com/courses/datascience-with-r-training.png"
+    },
+    {
+      "course_title": "Mobile App Development with React Native",
+      "course_description": "Build cross-platform mobile apps using React Native framework.",
+      "duration": "14 weeks",
+      "schedule": "Fridays, 6:30 PM - 9:30 PM",
+      "instructor": "Sarah Adams",
+      "prerequisites": "Intermediate knowledge of JavaScript",
+      "tuition_fee": "$450",
+      "image_link": "https://miro.medium.com/v2/resize:fit:640/1*8NjDXiICAKMgwEX3UEx85w.png"
+    },
+    {
+      "course_title": "Machine Learning Fundamentals",
+      "course_description": "Introduction to machine learning algorithms and techniques.",
+      "duration": "6 weeks",
+      "schedule": "Sundays, 1:00 PM - 4:00 PM",
+      "instructor": "Dr. David Brown",
+      "prerequisites": "Basic understanding of statistics and programming",
+      "tuition_fee": "$320",
+      "image_link": "https://miro.medium.com/v2/resize:fit:1400/1*c_fiB-YgbnMl6nntYGBMHQ.jpeg"
+    },
+    {
+      "course_title": "Full-Stack Web Development Bootcamp",
+      "course_description": "Comprehensive training covering both front-end and back-end development.",
+      "duration": "16 weeks",
+      "schedule": "Monday to Friday, 9:00 AM - 5:00 PM",
+      "instructor": "Emily White",
+      "prerequisites": "Some prior experience in web development",
+      "tuition_fee": "$2000",
+      "image_link": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210222183454/How-to-Become-a-Full-Stack-Web-Developer-in-2021.png"
+    },
+    {
+      "course_title": "Cybersecurity Essentials",
+      "course_description": "Learn the fundamentals of cybersecurity, including ethical hacking and network security.",
+      "duration": "8 weeks",
+      "schedule": "Tuesdays and Thursdays, 6:00 PM - 8:00 PM",
+      "instructor": "Alex Johnson",
+      "prerequisites": "Basic IT knowledge",
+      "tuition_fee": "$500",
+      "image_link": "https://bluekeyit.com/wp-content/uploads/2022/12/cybersecurity.jpg"
+    },
+    {
+      "course_title": "Java Programming",
+      "course_description": "Introduction to Java programming language and object-oriented programming concepts.",
+      "duration": "10 weeks",
+      "schedule": "Wednesdays and Fridays, 6:00 PM - 8:00 PM",
+      "instructor": "Mark Taylor",
+      "prerequisites": "None",
+      "tuition_fee": "$350",
+      "image_link": "https://www.devopsschool.com/blog/wp-content/uploads/2022/03/java_logo_icon_168609.png"
+    },
+    {
+      "course_title": "Blockchain Development",
+      "course_description": "Explore blockchain technology and develop decentralized applications.",
+      "duration": "12 weeks",
+      "schedule": "Saturdays, 2:00 PM - 5:00 PM",
+      "instructor": "Rachel Green",
+      "prerequisites": "Basic programming knowledge",
+      "tuition_fee": "$600",
+      "image_link": "https://www.bbva.ch/wp-content/uploads/2022/07/recurso_blockchain.jpg"
+    },
+    {
+      "course_title": "Introduction to SQL",
+      "course_description": "Learn SQL fundamentals for database management and querying.",
+      "duration": "6 weeks",
+      "schedule": "Mondays and Thursdays, 7:00 PM - 9:00 PM",
+      "instructor": "Jessica Parker",
+      "prerequisites": "None",
+      "tuition_fee": "$250",
+      "image_link": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnqO9H1zWwpEawCLWRXuPajkLvuXrcVQsFYQ&usqp=CAU"
+    }
+  ],
+  "enquiries": [
+    {
+      "name": "Utkarsh Bankar",
+      "email": "ub@gmail.com",
+      "mobile": "8899834039",
+      "course": "Web Development",
+      "qualification": "Mechanical Engineering"
+    },
+    {
+      "id": "51b0",
+      "name": "Utkarsh Bankar",
+      "email": "utkarsh@gmail.com",
+      "mobile": "0945646127",
+      "course": "Data Science with R",
+      "qualification": "ME"
+    },
+    {
+      "id": "b6f4",
+      "name": "Suresh ",
+      "email": "sur@gmail.com",
+      "mobile": "7777777777",
+      "course": "Blockchain Development",
+      "qualification": "BSc"
+    }
+  ]
+}
