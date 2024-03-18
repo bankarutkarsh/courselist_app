@@ -1,13 +1,115 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.blog-area-view {
+  margin: auto;
+  width: 60%;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem auto;
+  box-shadow: 0 0rem 5px 0 gray;
+  border-radius: 20px;
+  align-items: center;
+  overflow: hidden;
+  background-color: white;
+}
+.image-preview-view {
+  width: 20rem;
+  /* border: 1px solid black; */
+  box-shadow: 0 0rem 4px 0 gray;
+  height: 100%;
+}
+.blog-area-view-text {
+  width: 60%;
+  padding: 0 1rem;
+}
+.blog-area-view-text .title {
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.blog-area-view-text .desc {
+  margin: 0.5rem 0;
+}
+.blog-area-view-text .author {
+  text-align: right;
+  margin: 0.5rem 0;
+}
+.blog-area-view button{
+  background-color: rgb(250, 103, 12);
+  border: none;
+  color: azure;
+  border-radius: 10px;
+  padding: 10px 15px;
+  margin-bottom: 0.6rem;
+}
+.pop-registration {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.714);
+  top: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-registration {
+  width: 30%;
+
+  background-color: white;
+  padding: 2rem;
+}
+
+.user-registration div {
+  display: flex;
+  flex-direction: column;
+
+  margin-bottom: 10px;
+}
+
+.user-registration div > label {
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+h1{
+  text-align: center;
+  font-size:xx-large;
+  margin: 0.5rem 0;
+}
+.user-registration div > input {
+  padding: 0.5rem 1rem;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid black;
+}
+.user-registration div > input:focus {
+  border-bottom: 2px dashed green;
+}
+.btn {
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  border: 0;
+  cursor: pointer;
+  /* x-axis y-axis blur scale color */
+  transition-property: box-shadow;
+  transition-duration: 0.5s;
+}
+
+.btn-success {
+  box-shadow: 0 0 5px 0 green;
+}
+
+.btn-danger {
+  box-shadow: 0 0 5px 0 red;
+}
+
+.btn-success:hover {
+  box-shadow: 0 0 5px 2px green;
+}
+
+.btn-danger:hover {
+  box-shadow: 0 0 5px 2px red;
+}
+
+.d-none {
+  display: none !important;
 }
